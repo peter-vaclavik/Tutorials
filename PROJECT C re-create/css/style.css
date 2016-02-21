@@ -1,0 +1,132 @@
+#container {
+	width: 613px;
+	margin: auto;
+}
+
+footer {
+	font-family: 'Avenir Next', Arial, Serif;
+	font-size: 13px;
+	color: #4B9CBE;
+	padding-bottom: 12px;
+}
+
+#container footer:first-child {
+	border-bottom: 3px solid #7A7A7A;
+}
+
+.left_footer {
+	float: left;
+}
+
+.right_footer {
+	float: right;
+}
+
+footer:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#container > h1 {
+	font-family: 'Avenir Next', Arial, Serif;
+	font-size: 81px;
+	font-weight: lighter;
+	color: red;
+	margin: 5px 0px;
+}
+
+nav {
+	border-top: 1px solid #ADADAD;
+	border-bottom: 1px solid #ADADAD;
+	text-align: center;
+}
+
+ nav ul {
+	list-style: none;
+	margin: 6px 0px;
+	padding: 0px;
+}
+ 
+nav ul li {
+	display: inline;
+	color: #4B9CBE;
+	margin: 0px 0px 0px -4px;
+}  
+
+nav a {
+	font-family: 'Avenit Next', Arial, Serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: #4B9CBE;
+} 
+
+nav ul li:after {
+	content: "|";
+	display: inline;
+	padding: 0px 8px;
+}
+
+nav ul li:last-child:after {
+	content: none;
+}
+
+#left_col {
+	font-family: 'Hoefler Text', Georgia, Arial;
+	width: 185px;
+	float: left;
+	background-color: #EBEBEB;
+	padding: 5px;
+}
+
+#right_col {
+	width: 380px;
+	float: right;
+	padding-left: 20px;
+	border-left: 1px solid #ADADAD;
+}
+
+article:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+article {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+#left_col section h1 {
+	font-size: 18px;
+	color: #4B9CBE;
+	padding-bottom: 9px;
+	border-bottom: 1px dotted black;
+}
+
+#left_col section p {
+	font-size: 13px;
+}
+
+#right_col h1 {
+	font-family: 'Hoefler Text', Georgia, Arial;
+	font-size: 30px;
+	color: #4B9CBE;
+	margin: 30px 0px 10px;
+}
+
+#right_col p {
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0px 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+
