@@ -1,0 +1,44 @@
+body {
+	font-family: Arial;
+	padding-top: 100px;
+}
+
+article	{
+	width: 300px;
+	margin: auto;
+}
+
+header h1 {
+	font-family:'Helvetica Neue', Arial;
+	font-weight: normal;
+	text-align: center;
+}
+
+form fieldset {
+	border: none;
+	border-top: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;
+	padding: 20px 0px;
+	text-align: center;
+}
+
+form fieldset input {
+	width: 190px;
+	height: 22px;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+footer p {
+	text-align: center;
+	font-size: 12px;
+	color: #BBB;
+}
+
+input[type="submit"] {
+	margin-left: 50px;
+}

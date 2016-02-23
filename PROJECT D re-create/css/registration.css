@@ -1,0 +1,47 @@
+body {
+	background-color: #ccc;
+	padding: 50px;
+}
+
+article {
+	background-color: #fff;
+	width: 600px;
+	margin: auto;
+	padding: 40px;
+}
+
+header h1 {
+	text-align: center;
+	margin-top:0px;
+	margin-bottom: 40px;
+}
+
+fieldset {
+	border: none;
+	border-top: 1px solid black;
+}
+
+fieldset legend {
+	font-weight: bold;
+}
+
+fieldset label {
+	font-size: 15px;
+	display: inline-block;
+	min-width: 100px;
+}
+
+fieldset p {
+	margin-left: 30px;
+}
+
+input[type="email"],input[type="tel"],input[type="password"],input[type="text"] {
+	width: 243px;
+	height: 20px;
+	padding-left: 7px;
+}
+
+form > p:last-child {
+	text-align: right;
+	margin: 0px;
+}
